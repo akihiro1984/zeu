@@ -15,8 +15,6 @@ export default class DigitalClock extends BaseComponent {
 
     this._ds = new DigitalSymbol(this._ctx, this._barWidth, this._numberWidth,
       this._numberHeight, this._dashColor, this._numberColor);
-    this._timer = null;
-
   }
 
   postConstructor() {
